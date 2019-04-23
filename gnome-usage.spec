@@ -1,7 +1,7 @@
 %define url_ver	%%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-usage
-Version:	3.30.0
+Version:	3.32.0
 Release:	1
 Summary:	A GNOME app to view information about use of system resources
 Group:		Graphical desktop/GNOME
@@ -19,6 +19,7 @@ BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	desktop-file-utils
+BuildRequires:  pkgconfig(libdazzle-1.0)
 
 %description
 gnome-usage lets you easily visualize the use of system resources such as
@@ -42,5 +43,5 @@ CPU, memory, and storage.
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Usage.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Usage.gschema.xml
-%{_iconsdir}/hicolor/*/apps/org.gnome.Usage.png
+%{_iconsdir}/hicolor/scalable/apps/org.gnome.Usage.svg
 %{_datadir}/metainfo/org.gnome.Usage.appdata.xml

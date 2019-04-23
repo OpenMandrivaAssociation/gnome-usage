@@ -43,5 +43,5 @@ CPU, memory, and storage.
 %{_bindir}/%{name}
 %{_datadir}/applications/org.gnome.Usage.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Usage.gschema.xml
-%{_iconsdir}/hicolor/*/apps/org.gnome.Usage.png
+#{_iconsdir}/hicolor/*/apps/org.gnome.Usage.png
 %{_datadir}/metainfo/org.gnome.Usage.appdata.xml

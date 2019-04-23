@@ -19,6 +19,7 @@ BuildRequires:	pkgconfig(glib-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0)
 BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	desktop-file-utils
+BuildRequires:  pkgconfig(libdazzle-1.0)
 
 %description
 gnome-usage lets you easily visualize the use of system resources such as

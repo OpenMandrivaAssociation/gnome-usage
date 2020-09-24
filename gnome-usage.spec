@@ -22,6 +22,7 @@ BuildRequires:	desktop-file-utils
 BuildRequires:  pkgconfig(libdazzle-1.0)
 BuildRequires:  pkgconfig(libhandy-1)
 BuildRequires:  pkgconfig(tracker-sparql-3.0)
+BuildRequires:  tracker-vala
 
 
 %description

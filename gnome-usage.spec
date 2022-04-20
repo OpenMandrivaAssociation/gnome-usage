@@ -2,7 +2,7 @@
 
 Name:		gnome-usage
 Version:	3.38.1
-Release:	3
+Release:	4
 Summary:	A GNOME app to view information about use of system resources
 Group:		Graphical desktop/GNOME
 License:	GPLv3+

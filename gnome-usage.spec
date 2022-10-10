@@ -33,6 +33,8 @@ CPU, memory, and storage.
 %setup -q
 
 %build
+export CC=gcc
+export CXX=g++
 %meson
 %meson_build
 

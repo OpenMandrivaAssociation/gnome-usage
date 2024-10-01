@@ -2,7 +2,7 @@
 
 Name:		gnome-usage
 Version:	46.0
-Release:	1
+Release:	2
 Summary:	A GNOME app to view information about use of system resources
 Group:		Graphical desktop/GNOME
 License:	GPLv3+
@@ -22,8 +22,8 @@ BuildRequires:	pkgconfig(gtk4)
 BuildRequires:	desktop-file-utils
 BuildRequires:  pkgconfig(libdazzle-1.0)
 BuildRequires:  pkgconfig(libadwaita-1)
-BuildRequires:  pkgconfig(tracker-sparql-3.0)
-BuildRequires:  tracker-vala
+BuildRequires:  pkgconfig(tinysparql-3.0)
+BuildRequires:  tinysparql-vala
 
 
 %description

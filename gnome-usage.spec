@@ -52,4 +52,4 @@ export CXX=g++
 %{_datadir}/applications/org.gnome.Usage.desktop
 %{_datadir}/glib-2.0/schemas/org.gnome.Usage.gschema.xml
 %{_iconsdir}/hicolor/scalable/apps/org.gnome.Usage.svg
-%{_datadir}/metainfo/org.gnome.Usage.appdata.xml
+%{_datadir}/metainfo/org.gnome.Usage.metainfo.xml

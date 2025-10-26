@@ -1,8 +1,8 @@
 %define url_ver	%%(echo %{version}|cut -d. -f1,2)
 
 Name:		gnome-usage
-Version:	48.rc
-Release:	2
+Version:	48.0
+Release:	1
 Summary:	A GNOME app to view information about use of system resources
 Group:		Graphical desktop/GNOME
 License:	GPLv3+

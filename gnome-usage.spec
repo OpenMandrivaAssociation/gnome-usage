@@ -25,6 +25,7 @@ BuildRequires:  pkgconfig(libdazzle-1.0)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(tinysparql-3.0)
 BuildRequires:  tinysparql-vala
+BuildRequires:  atomic-devel
 
 
 %description
